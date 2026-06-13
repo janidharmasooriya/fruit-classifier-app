@@ -50,15 +50,3 @@ if uploaded_file is not None:
     st.markdown(f"### 🎯 මේක බොහෝ දුරට: **{predicted_class.upper()}** එකක්.")
     st.progress(int(confidence))
     st.write(f"📊 නිවැරදිතාවයේ ප්‍රතිශතය: {confidence:.2f}%")
-
-
-
-# ============================================================
-# 3.2 Requirements File එක සෑදීම (requirements.txt)
-# ============================================================
-
-%%writefile requirements.txt
-streamlit
-tensorflow
-numpy
-Pillow
