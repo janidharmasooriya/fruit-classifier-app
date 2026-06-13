@@ -51,7 +51,7 @@ if uploaded_file is not None:
     st.progress(int(confidence))
     st.write(f"📊 නිවැරදිතාවයේ ප්‍රතිශතය: {confidence:.2f}%")
 
----
+
 
 # ============================================================
 # 3.2 Requirements File එක සෑදීම (requirements.txt)
